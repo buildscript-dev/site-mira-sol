@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mira Sol — Photographer of quiet light</title>
+<meta name="description" content="Mira Sol photographs landscapes, portraits and weddings in the light just after sunrise and just before sunset. See the work and book a date.">
+<meta name="theme-color" content="#0f1a24">
+<meta property="og:title" content="Mira Sol — Photographer of quiet light">
+<meta property="og:description" content="Landscapes, portraits and weddings, shot in the hour the light turns.">
+<meta property="og:image" content="img/sunset.jpg">
+<link rel="preload" href="fonts/anybody.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="img/sunset.jpg" as="image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%2712%27 fill=%27%23ffb02e%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#work">Skip to the work</a>
+
+<header class="bar" id="bar">
+  <a class="mark" href="#top" aria-label="Mira Sol, back to top"><span class="mark-sun" aria-hidden="true"></span>Mira Sol</a>
+  <nav class="nav" id="nav" aria-label="Main">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact" class="nav-book">Book a date</a>
+  </nav>
+  <button class="burger" id="burger" aria-expanded="false" aria-controls="nav"><span class="sr">Menu</span><i></i><i></i></button>
+</header>
+
+<main id="top">
+
+<!-- HERO: a sun-sized circle of photograph that opens to the whole frame -->
+<section class="hero" id="hero" aria-label="Introduction">
+  <div class="hero-stick">
+    <div class="iris" id="iris" aria-hidden="true">
+      <img src="img/sunset.jpg" alt="" fetchpriority="high">
+    </div>
+    <div class="hero-shade" aria-hidden="true"></div>
+    <h1 class="hero-title">
+      <span class="ht ht-a" id="ht-a">Wait for</span>
+      <span class="ht ht-b" id="ht-b">the light.</span>
+    </h1>
+    <p class="hero-lead" id="hero-lead">Mira Sol photographs landscapes, portraits and weddings in the thirty minutes either side of sunrise and sunset, when the light is slow and kind.</p>
+    <p class="hero-hint" id="hero-hint"><span>Scroll to open the frame</span><i aria-hidden="true"></i></p>
+  </div>
+</section>
+
+<!-- WORK: pinned horizontal film reel -->
+<section class="reel" id="work" aria-labelledby="reel-h">
+  <div class="reel-stick">
+    <div class="reel-track" id="track">
+      <div class="reel-intro">
+        <h2 id="reel-h">Eight frames from the last two years</h2>
+        <p>Keep scrolling. Each frame was made within an hour of a sunrise or a sunset, on the day it was planned for or the third try.</p>
+      </div>
+
+      <figure class="frame f-tall" data-frame>
+        <div class="shot"><img src="img/milkyway.jpg" alt="The Milky Way arching over snow-covered peaks under a deep blue night sky" loading="lazy" data-par></div>
+        <figcaption><b>Frame 1</b>Landscape. Alps, 3:40 am, minus eleven.</figcaption>
+      </figure>
+      <figure class="frame f-tall f-low" data-frame>
+        <div class="shot"><img src="img/p-dark.jpg" alt="Portrait of a woman with wavy hair lit softly against a dark wall" loading="lazy" data-par></div>
+        <figcaption><b>Frame 2</b>Portrait. One window, no flash.</figcaption>
+      </figure>
+      <figure class="frame f-wide" data-frame>
+        <div class="shot"><img src="img/road.jpg" alt="A straight desert road with a double yellow line running between red rock walls toward distant mountains" loading="lazy" data-par></div>
+        <figcaption><b>Frame 3</b>Landscape. Utah, the last ten minutes of sun.</figcaption>
+      </figure>
+      <figure class="frame f-tall" data-frame>
+        <div class="shot"><img src="img/p-blue.jpg" alt="A young woman in a denim jacket and grey hoodie standing against a bright blue wall" loading="lazy" data-par></div>
+        <figcaption><b>Frame 4</b>Portrait. A blue wall in Porto.</figcaption>
+      </figure>
+      <figure class="frame f-wide f-low" data-frame>
+        <div class="shot"><img src="img/fog.jpg" alt="A sea of cloud filling a valley below snow-capped mountains at dusk" loading="lazy" data-par></div>
+        <figcaption><b>Frame 5</b>Landscape. Above the cloud, just after sunset.</figcaption>
+      </figure>
+      <figure class="frame f-tall" data-frame>
+        <div class="shot"><img src="img/p-violet.jpg" alt="Portrait of a woman with her hair pulled back in violet and blue light" loading="lazy" data-par></div>
+        <figcaption><b>Frame 6</b>Portrait. Dusk gel, one stop under.</figcaption>
+      </figure>
+      <figure class="frame f-wide" data-frame>
+        <div class="shot"><img src="img/forest.jpg" alt="A path through tall pine trees with low sun coming through the trunks" loading="lazy" data-par></div>
+        <figcaption><b>Frame 7</b>Landscape. Forest path, first light.</figcaption>
+      </figure>
+      <figure class="frame f-tall f-low" data-frame>
+        <div class="shot"><img src="img/p-laugh.jpg" alt="A woman in a red sweater laughing, city lights blurred behind her" loading="lazy" data-par></div>
+        <figcaption><b>Frame 8</b>Portrait. The laugh after the serious one.</figcaption>
+      </figure>
+
+      <a class="reel-end" href="#contact">
+        <span>Have a place or a person in mind?</span>
+        <strong>Book a date</strong>
+      </a>
+    </div>
+    <div class="reel-meter" aria-hidden="true"><i id="meter"></i></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about" aria-labelledby="about-h">
+  <div class="about-grid">
+    <figure class="about-photo" id="about-photo">
+      <img src="img/photographer.jpg" alt="A photographer sitting on a rock ledge above a sea of fog, pointing a camera at distant hills" loading="lazy" data-par>
+      <figcaption>Waiting on a ledge for the fog to lift.</figcaption>
+    </figure>
+    <div class="about-text">
+      <h2 id="about-h">I get there early and stay until the light is gone.</h2>
+      <p>I'm Mira. I started with a borrowed film camera and a habit of getting up before everyone else. Twelve years later the habit is the job: I scout a place the day before, arrive in the dark, and wait for the twenty minutes that make the picture.</p>
+      <p>People sometimes tell me they hate being photographed. My portrait and wedding clients mostly say that on the day they book. We walk, talk, and I shoot when you've forgotten the camera is there.</p>
+      <dl class="facts">
+        <div><dt>Based in</dt><dd>Lisbon, travelling most months</dd></div>
+        <div><dt>Shoots on</dt><dd>Mirrorless digital, and 35 mm film when the light is worth the wait</dd></div>
+        <div><dt>Published in</dt><dd>Kinfolk, Cereal, Hotel Magazine</dd></div>
+      </dl>
+    </div>
+  </div>
+
+  <div class="grade">
+    <div class="grade-copy">
+      <h3>Same frame, before and after</h3>
+      <p>Drag the line. I edit by hand to keep what the light did and remove what the camera couldn't hold.</p>
+    </div>
+    <div class="compare" id="compare">
+      <img class="cmp-after" src="img/sea.jpg" alt="Finished photograph of a dark blue swell under a pale sky" loading="lazy">
+      <div class="cmp-before-wrap" id="cmp-before"><img class="cmp-before" src="img/sea.jpg" alt="" loading="lazy" aria-hidden="true"></div>
+      <span class="cmp-tag cmp-tag-l" aria-hidden="true">Straight from camera</span>
+      <span class="cmp-tag cmp-tag-r" aria-hidden="true">Finished</span>
+      <input id="cmp-range" type="range" min="0" max="100" value="50" aria-label="Reveal the finished photograph">
+      <div class="cmp-line" id="cmp-line" aria-hidden="true"><span></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services" aria-labelledby="svc-h">
+  <div class="svc-head">
+    <h2 id="svc-h">What I shoot</h2>
+    <p>Three kinds of work, each planned around the light. Pick one to see what's included.</p>
+  </div>
+  <ul class="svc-list" id="svc-list">
+    <li class="svc open">
+      <h3><button aria-expanded="true" aria-controls="svc-1" id="svc-1-btn"><span class="svc-name">Landscape and travel</span><span class="svc-price">from €480</span><span class="svc-plus" aria-hidden="true"></span></button></h3>
+      <div class="svc-body" id="svc-1" role="region" aria-labelledby="svc-1-btn"><div class="svc-inner">
+        <div class="svc-copy">
+          <p>Commissions for brands, hotels and magazines, or prints for your wall. I scout, I wait, and I only send the frames I'd hang myself.</p>
+          <ul><li>Half-day or full-day shoot at sunrise or sunset</li><li>15 edited, full-resolution images in two weeks</li><li>Print licence for one use, extended on request</li></ul>
+        </div>
+        <img src="img/ridge.jpg" alt="A lone figure standing on a rocky ridge above misty mountains in warm evening light" loading="lazy">
+      </div></div>
+    </li>
+    <li class="svc">
+      <h3><button aria-expanded="false" aria-controls="svc-2" id="svc-2-btn"><span class="svc-name">Portraits</span><span class="svc-price">from €320</span><span class="svc-plus" aria-hidden="true"></span></button></h3>
+      <div class="svc-body" id="svc-2" role="region" aria-labelledby="svc-2-btn"><div class="svc-inner">
+        <div class="svc-copy">
+          <p>For artists, founders and anyone who needs a picture that looks like them on a good day. We shoot outdoors in soft light, walking and talking.</p>
+          <ul><li>90-minute session at a place you pick or one I suggest</li><li>10 edited images, with a first look within three days</li><li>Quiet direction, no stiff poses</li></ul>
+        </div>
+        <img src="img/p-red.jpg" alt="Close portrait of a woman with auburn hair looking away from the camera, blue frame behind her" loading="lazy">
+      </div></div>
+    </li>
+    <li class="svc">
+      <h3><button aria-expanded="false" aria-controls="svc-3" id="svc-3-btn"><span class="svc-name">Weddings and elopements</span><span class="svc-price">from €1,900</span><span class="svc-plus" aria-hidden="true"></span></button></h3>
+      <div class="svc-body" id="svc-3" role="region" aria-labelledby="svc-3-btn"><div class="svc-inner">
+        <div class="svc-copy">
+          <p>Small weddings and elopements, anywhere I can get to before dawn. I take twelve bookings a year so I can stay with each story from the first call to the last album page.</p>
+          <ul><li>Full day or sunrise-to-dinner coverage</li><li>Around 400 edited images and a printed linen album</li><li>A planning call and a walk-through of the light on your location</li></ul>
+        </div>
+        <img src="img/w-bouquet.jpg" alt="A bride holding a bouquet of white and peach flowers in warm backlight" loading="lazy">
+      </div></div>
+    </li>
+  </ul>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact" aria-labelledby="contact-h">
+  <div class="contact-bg" aria-hidden="true"><img src="img/sunset.jpg" alt="" loading="lazy" data-par></div>
+  <div class="contact-wrap">
+    <div class="contact-copy">
+      <h2 id="contact-h">Tell me where, and when the sun will be there.</h2>
+      <p>I answer every message within two days. Dates fill up around the equinoxes, so earlier is better.</p>
+      <p class="contact-direct">Prefer to write? <a href="mailto:hello@mirasol.studio">hello@mirasol.studio</a></p>
+    </div>
+    <form class="form" id="form" novalidate>
+      <label>Your name<input name="name" autocomplete="name" required></label>
+      <label>Email<input name="email" type="email" autocomplete="email" required></label>
+      <label>What are we making?
+        <select name="kind">
+          <option>Landscape or travel</option>
+          <option>Portraits</option>
+          <option>Wedding or elopement</option>
+          <option>Something else</option>
+        </select>
+      </label>
+      <label>Where and when?<textarea name="msg" rows="3" placeholder="A place, a rough date, anything you've already pictured" required></textarea></label>
+      <button class="send" type="submit">Send to Mira</button>
+      <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <span>© 2026 Mira Sol</span>
+  <span>Lisbon and wherever the light is</span>
+  <a href="#top">Back to top</a>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
